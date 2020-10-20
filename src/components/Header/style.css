@@ -1,15 +1,10 @@
-body { 
-  margin: 0; 
-  padding: 0; 
-} 
 
-.sky { 
-  position: absolute; 
+.sky {  
   top: 0; 
   left: 0; 
   width: 100%; 
-  height: 700px; 
-  background: url(../images/clearsky.png);
+  height: 100vh; 
+  background: url(clearsky.png);
   background-size: cover;
  } 
 
@@ -18,18 +13,14 @@ body {
   top: 0; 
   left: 0px; 
   width: 100%; 
-  height: 700px; 
-  background: url(../images/cloud.png);
+  height: 100vh; 
+  background: url(cloud.png);
   opacity: 0.7;
   animation: animate 80s linear infinite; 
+  background-size: cover;
 } 
 
   @keyframes animate { 
   0% { background-position: 0px; } 
   100% { background-position: -5440px; } 
-}
-
-.container {
-  position: relative;
-  top: 700px;
 }

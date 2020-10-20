@@ -4,11 +4,13 @@ import NavTabs from "./components/NavTabs";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Header from "./components/Header";
 
 function App() {
   return (
     <Router>
       <div>
+        <Header>Ashley Holanda</Header>
         <NavTabs />
         <Route exact path="/" component={About} />
         <Route exact path="/projects" component={Projects} />
