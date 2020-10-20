@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
-import About from "./pages/About";
+import About from "./components/AboutCard";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
