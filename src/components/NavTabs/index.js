@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import "./style.css";
 
 function NavTabs() {
   // We'll go into the Hooks API later, for now, we are just using some code
@@ -8,7 +9,7 @@ function NavTabs() {
   const location = useLocation();
 
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav">
       <li className="nav-item">
         <Link
           to="/"
