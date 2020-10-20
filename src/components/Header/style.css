@@ -24,3 +24,23 @@
   0% { background-position: 0px; } 
   100% { background-position: -5440px; } 
 }
+
+.title {
+  position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px 8px #282d39;
+}
+
+.subtitle {
+  position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 8px #282d39;
+}
