@@ -16,7 +16,7 @@
   height: 100vh; 
   background: url(cloud.png);
   opacity: 0.7;
-  animation: animate 80s linear infinite; 
+  animation: animate 100s linear infinite; 
   background-size: cover;
 } 
 

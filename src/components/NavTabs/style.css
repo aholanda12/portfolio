@@ -1,6 +1,7 @@
 .nav {
-  background-image: linear-gradient(#bad9e8, #86c9f3);
+  background-image: linear-gradient(#bad9e8, #125c98);
   height: 100px;
+  position: sticky;
 }
 
 .nav-item {

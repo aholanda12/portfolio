@@ -5,6 +5,7 @@ import Col from "../Col";
 
 function About() {
   return (
+
     <Container>
       <Row>
         <Col size="md-12">
