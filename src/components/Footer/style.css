@@ -14,4 +14,15 @@
   right: 0;
   padding: 3px;
   background: #bad9e8;
+  color: #27364d
+}
+
+.icon {
+  float: right;
+  margin-right: 15px;
+  color: #27364d;
+}
+
+.icon:hover {
+  color: white;
 }
