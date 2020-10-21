@@ -13,14 +13,14 @@
   left: 0;
   right: 0;
   padding: 3px;
-  background: #bad9e8;
+  background-image: linear-gradient(to right, #bad9e8,#27364d);
   color: #27364d
 }
 
 .icon {
   float: right;
   margin-right: 15px;
-  color: #27364d;
+  color: #bad9e8;
 }
 
 .icon:hover {
