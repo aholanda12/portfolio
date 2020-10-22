@@ -2,10 +2,10 @@ import React from "react";
 import Container from "../Container";
 import Row from "../Row";
 import Col from "../Col";
+import "./style.css";
 
 function About() {
   return (
-
     <Container>
       <Row>
         <Col size="md-12">
