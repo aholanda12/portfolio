@@ -3,8 +3,7 @@ import Container from "../Container";
 import Row from "../Row";
 import Col from "../Col";
 import "./style.css";
-import printer from "../assets/images/printer.gif"
-import { FaRegFilePdf } from 'react-icons/fa';
+import printer from "../../assets/images/printer.gif"
 import { SiLinkedin } from 'react-icons/si';
 import { SiGithub } from 'react-icons/si';
 import { FaFacebook } from 'react-icons/fa';
