@@ -17,12 +17,12 @@
   color: #27364d
 }
 
-.icon {
+.ficon {
   float: right;
   margin-right: 15px;
   color: #bad9e8;
 }
 
-.icon:hover {
+.ficon:hover {
   color: white;
 }

@@ -11,11 +11,11 @@ function Footer() {
   return (
     <footer className="footer">
       <span>&copy; 2020 Ashley Holanda
-         <a href="/" className="icon"><FaRegFilePdf /></a>
-         <a href="https://www.linkedin.com/in/ashley-holanda-0585671a4/" className="icon"><SiLinkedin /></a>
-         <a href="https://github.com/aholanda12" className="icon"><SiGithub /></a>
-         <a href="https://www.facebook.com/ashley.holanda" className="icon"><FaFacebook /></a>
-         <a href="mailto:aholanda12@gmail.com" className="icon"><AiOutlineMail /></a>
+         <a href="/" className="ficon"><FaRegFilePdf /></a>
+         <a href="https://www.linkedin.com/in/ashley-holanda-0585671a4/" className="ficon"><SiLinkedin /></a>
+         <a href="https://github.com/aholanda12" className="ficon"><SiGithub /></a>
+         <a href="https://www.facebook.com/ashley.holanda" className="ficon"><FaFacebook /></a>
+         <a href="mailto:aholanda12@gmail.com" className="ficon"><AiOutlineMail /></a>
         </span>
     </footer>
   );

@@ -14,7 +14,7 @@ function About() {
       </Row>
       <Row>
         <Col size="md-4">
-          <img class="headshot" src="https://github.com/aholanda12/responsive-portfolio/blob/master/assets/images/headshot.png?raw=true" alt="Ashley Holanda"/>
+          <img class="headshot" src="https://github.com/aholanda12/responsive-portfolio/blob/master/assets/images/headshot.png?raw=true" alt="Ashley Holanda" />
         </Col>
         <Col size="md-8">
           <p>Hello and welcome to my webpage! My name is Ashley Holanda and I am currently an accounts payable coordinator aspiring to be a web developer. My journey in web design began when I was in the 3rd grade, creating HTML web pages for my Neopets. I continued to learn the basics through customizing my social media pages and through rudimentary courses in high school and college. Now I am ready to delve into deeper depths by taking the Rutgers Coding Boot Camp.</p>
