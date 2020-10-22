@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "https://user-images.githubusercontent.com/64985702/93638366-29009900-f9c5-11ea-81b5-5f52298ab040.jpg",
+    "title": "Life-Point",
+    "description": "A journaling app that utilizes MySQL and Node to keep track of your mental health and daily habits.",
+    "deployed": "https://life-point.herokuapp.com/",
+    "github": "https://github.com/aholanda12/life-point"
+  },
+  {
+    "id": 2,
+    "image": "https://user-images.githubusercontent.com/65003712/88004517-28d34280-cad5-11ea-8031-5ec6cb0e2977.png",
+    "title": "What Am I Having?",
+    "description": "A food app that utilizes AJAX calls to help you decide what to eat based on what you're in the mood for and what you have.",
+    "deployed": "https://aholanda12.github.io/what-am-i-having/",
+    "github": "https://github.com/aholanda12/what-am-i-having"
+  },
+  {
+    "id": 3,
+    "image": "https://github.com/aholanda12/eat-da-burger/raw/master/public/assets/images/screenshot.PNG",
+    "title": "Eat-Da-Burger",
+    "description": "An app that allows you to create and eat fictionalized burgers through MySQL databases",
+    "deployed": "https://pure-thicket-45275.herokuapp.com/",
+    "github": "https://github.com/aholanda12/eat-da-burger"
+  },
+  {
+    "id": 4,
+    "image": "https://github.com/aholanda12/express-note-taker/blob/master/public/assets/images/screenshot.PNG",
+    "title": "Express Note Taker",
+    "description": "A notetaking app that utilizes Express, Node, and API routes to take, keep, and delete notes.",
+    "deployed": "https://safe-thicket-42616.herokuapp.com/notes",
+    "github": "https://github.com/aholanda12/express-note-taker"
+  },
+  {
+    "id": 5,
+    "image": "https://github.com/aholanda12/weather-dashboard/raw/master/assets/screenshot.PNG?raw=true",
+    "title": "Weather Dashboard",
+    "description": "A weather app that utilizes AJAX calls to gather weather information and save previous searches",
+    "deployed": "https://aholanda12.github.io/weather-dashboard/",
+    "github": "https://github.com/aholanda12/weather-dashboard"
+  },
+  {
+    "id": 6,
+    "image": "https://github.com/aholanda12/code-quiz/blob/master/assets/images/screenshot.PNG?raw=true",
+    "title": "TLBT Quiz",
+    "description": "A game app that tests your knowledge on the long-running hit franchise, ''The Land Before Time''",
+    "deployed": "https://aholanda12.github.io/code-quiz/",
+    "github": "https://github.com/aholanda12/code-quiz"
+  }
+]
