@@ -1,23 +1,42 @@
-import React from "react";
+import React, { Component } from "react";
+import Container from "../components/Container";
+import Row from "../components/Row";
+import Col from "../components/Col";
+import Project from "../components/ProjectCard";
+import projects from "../projects.json";
 
-function Projects() {
+class Projects extends Component {
+  state = {
+    projects
+  };
+
+  render() {
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-        turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-        Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-        nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi
-        justo laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum
-        tellus eget lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-        placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque
-        vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
-        non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
+    <Container>
+      <Row>
+        <Col size="md-12">
+          <h1>Projects</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col size="md-6">
+        {this.state.projects.map(project => (
+          <Project
+            id={project.id}
+            key={project.id}
+            name={project.name}
+            image={project.image}
+            description={project.description}
+            deployed={project.deployed}
+            github={project.github} 
+            /> 
+            ))}
+        </Col>
+      </Row>
+    </Container >
   );
 }
+}
+
 
 export default Projects;
