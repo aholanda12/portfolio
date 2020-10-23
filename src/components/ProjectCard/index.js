@@ -5,12 +5,14 @@ function Project(props) {
   return (
     <div className="projectCard">
     <h3>{props.title}</h3>
-    <img alt={props.name} src={props.image} className="screenshot"/>
-  <div className="content">
-      <p>{props.description}</p>
+    <div className="img-container">
+    <img alt={props.name} src={props.image}/>
+    <div className="overlay">
+      <p className="description">{props.description}</p>
+      </div>
+  </div>
       <p>{props.github}</p>
       <p>{props.deployed}</p>
-  </div>
   </div>
   );
 }
