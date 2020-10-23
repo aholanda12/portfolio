@@ -19,19 +19,19 @@ class Projects extends Component {
         </Col>
       </Row>
       <Row>
-        <Col size="md-6">
         {this.state.projects.map(project => (
+          <Col size="md-6">
           <Project
             id={project.id}
             key={project.id}
-            name={project.name}
+            title={project.title}
             image={project.image}
             description={project.description}
             deployed={project.deployed}
             github={project.github} 
             /> 
+                    </Col>
             ))}
-        </Col>
       </Row>
     </Container >
   );

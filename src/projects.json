@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "image": "https://github.com/aholanda12/express-note-taker/blob/master/public/assets/images/screenshot.PNG",
+    "image": "https://github.com/aholanda12/express-note-taker/raw/master/public/assets/images/screenshot.PNG",
     "title": "Express Note Taker",
     "description": "A notetaking app that utilizes Express, Node, and API routes to take, keep, and delete notes.",
     "deployed": "https://safe-thicket-42616.herokuapp.com/notes",
