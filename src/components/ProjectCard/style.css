@@ -28,7 +28,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.7s ease;
   background-color: #27364d;
 }
 
@@ -47,12 +47,9 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-/* .img-container > .description {
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  line-height: 20px;
+
+.projectbtn {
   display: inline-block;
-  vertical-align: middle;
-  font-family: "Trebuchet MS";
-} */
+  background-color: #bad9e8;
+  color: white;
+}
