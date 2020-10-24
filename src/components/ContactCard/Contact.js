@@ -16,7 +16,7 @@ function Contact() {
     <Container>
       <Row>
         <Col size="md-12">
-          <h1>Contact</h1>
+          <h1 className="header">Contact</h1>
         </Col>
       </Row>
       <Row>

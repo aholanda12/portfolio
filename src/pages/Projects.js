@@ -15,7 +15,7 @@ class Projects extends Component {
     <Container>
       <Row>
         <Col size="md-12">
-          <h1>Projects</h1>
+          <h1 className="header">Projects</h1>
         </Col>
       </Row>
       <Row>

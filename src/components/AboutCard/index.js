@@ -9,16 +9,22 @@ function About() {
     <Container>
       <Row>
         <Col size="md-12">
-          <h1>About Page</h1>
+          <h1 className="header">About Page</h1>
         </Col>
       </Row>
       <Row>
         <Col size="md-4">
-          <img class="headshot" src="https://github.com/aholanda12/responsive-portfolio/blob/master/assets/images/headshot.png?raw=true" alt="Ashley Holanda" />
+          <img className="headshot" src="https://github.com/aholanda12/responsive-portfolio/blob/master/assets/images/headshot.png?raw=true" alt="Ashley Holanda" />
         </Col>
         <Col size="md-8">
-          <p>Hello and welcome to my webpage! My name is Ashley Holanda and I am currently an accounts payable coordinator aspiring to be a web developer. My journey in web design began when I was in the 3rd grade, creating HTML web pages for my Neopets. I continued to learn the basics through customizing my social media pages and through rudimentary courses in high school and college. Now I am ready to delve into deeper depths by taking the Rutgers Coding Boot Camp.</p>
-          <p>When it comes to the concept of "left brain" and "right brain", I have been told that I am equally both. My best subjects in school were math and science, however, my passions lie in the arts with hobbies like drawing and writing. My desire is to combine the logical and the aesthetic through coding and hopefully you will see as much in this and all other pages I create.</p>
+          <p>Ashley Holanda. </p>
+          <p>Full Stack Developer. </p>
+          <p>My journey in web development began with HTML Neopets pages in 2003. </p>
+          <p>Since then, I branched out into a variety of languages and improvements within the last two decades.</p>
+          <p>And I only plan to expand from there. </p>
+          <p>I am a very hard working and curious individual, always ready to solve a problem and learn something new.</p> 
+          <p>When it comes to how far I'm willing to go, the sky's the limit!</p>
+  
         </Col>
       </Row>
     </Container >
