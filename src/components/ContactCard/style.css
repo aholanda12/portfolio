@@ -1,3 +1,8 @@
+.contact-container {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
 .cicon {
   font-size: 18px;
 }
@@ -10,4 +15,32 @@
 
 .printer {
   height: 300px;
+}
+
+input, textarea {
+  width:100%;
+  box-sizing:border-box;
+}
+
+.resume-title {
+  text-align: right;
+}
+
+.printer-container {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  text-align: center;
+  background:#bad9e8;
+  margin: 0px;
+  border-radius: 25px;
+}
+.printer-container > img {
+  position: absolute;
+  display: block;
+  height: 300px;
+  left: -20px;
+  top: -20px;
 }

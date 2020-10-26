@@ -4,7 +4,7 @@ import "./style.css";
 function CardBtn(props) {
   return (
     <div>
-        <button type="button" className="variant">{props.children}</button>
+        <button type={props.type} className="variant">{props.children}</button>
     </div>
   );
 }
