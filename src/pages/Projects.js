@@ -14,11 +14,6 @@ class Projects extends Component {
   return (
     <Container>
       <Row>
-        <Col size="md-12">
-          <h1 className="header">Projects</h1>
-        </Col>
-      </Row>
-      <Row>
         {this.state.projects.map(project => (
           <Col size="md-6">
           <Project

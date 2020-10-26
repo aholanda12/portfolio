@@ -3,7 +3,7 @@ import Container from "../Container";
 import Row from "../Row";
 import Col from "../Col";
 import "./style.css";
-import printer from "../../assets/images/printer.gif"
+// import printer from "../../assets/images/printer.gif"
 import { SiLinkedin } from 'react-icons/si';
 import { SiGithub } from 'react-icons/si';
 import { FaFacebook } from 'react-icons/fa';
@@ -39,7 +39,7 @@ function Contact() {
           <p className="cicon"><a href="https://www.facebook.com/ashley.holanda"><FaFacebook size={40} style= {{ fill: '#27364d', marginRight: 20}}/>Facebook</a></p>
         </Col>
         <Col size="md-2">
-          <img className="printer" src={printer} alt="Resume Printer" />
+          <img className="printer" src="/assets/images/printer.gif" alt="Resume Printer" />
         </Col>
       </Row>
     </Container >

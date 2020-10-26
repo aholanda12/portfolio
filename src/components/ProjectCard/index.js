@@ -12,8 +12,10 @@ function Project(props) {
           <p className="description">{props.description}</p>
         </div>
       </div>
+      <div className="flex-container">
       <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="projectbtn"><CardBtn>Visit</CardBtn></a>
       <a href={props.github} target="_blank" rel="noopener noreferrer" className="projectbtn"><CardBtn>Github</CardBtn></a>
+      </div>
     </div>
   );
 }
