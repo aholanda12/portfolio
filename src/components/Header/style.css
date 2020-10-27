@@ -48,9 +48,9 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .subtitle { top: 65%; }
+  .subtitle { top: 75%; }
 }
 
 @media (min-width: 800px) {
-  .subtitle { top: 60%; }
+  .subtitle { top: 70%; }
 }
