@@ -3,13 +3,14 @@ import Container from "../Container";
 import Row from "../Row";
 import Col from "../Col";
 import "./style.css";
+import headshotPic from "../../assets/images/headshot.png"
 
 function About() {
   return (
     <Container>
       <Row>
       <Col size="md-4">
-          <img className="headshot" src="https://github.com/aholanda12/responsive-portfolio/blob/master/assets/images/headshot.png?raw=true" alt="Ashley Holanda" />
+          <img className="headshot" src={headshotPic} alt="Ashley Holanda" />
         </Col>
         {/* <Col size="md-3">
           <h1 className="header">About Page</h1>

@@ -10,6 +10,7 @@ import { FaFacebook } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FiPhoneCall } from 'react-icons/fi'
 import ReactTooltip from "react-tooltip";
+import printerPic from "../../assets/images/printer.gif"
 
 
 function Contact() {
@@ -38,7 +39,7 @@ function Contact() {
           <Col size="md-2">
             <a href="https://drive.google.com/file/d/1VbnpVXiUPgEj7J-PVq9O7FMyodMDoAdH/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <div className="printer-container">
-              <img className="printer" src="/assets/images/printer.gif" alt="Resume Printer" data-tip data-for="printerTip" data-place="bottom" data-background-color="#27364d" />
+              <img className="printer" src={printerPic} alt="Resume Printer" data-tip data-for="printerTip" data-place="bottom" data-background-color="#27364d" />
             </div>
             <ReactTooltip id="printerTip" place="top" effect="solid" placement="top">
               Resume View
