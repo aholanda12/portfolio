@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+
 function Header(props) {
   return  <div className="sky">
   <div className="clouds"></div>
