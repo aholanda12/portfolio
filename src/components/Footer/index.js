@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer className="footer">
       <span>&copy; 2020 Ashley Holanda
-         <a href="https://drive.google.com/file/d/1VbnpVXiUPgEj7J-PVq9O7FMyodMDoAdH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ficon" >
+         <a href="https://drive.google.com/file/d/1UcIDieWJkrHuxgMpEzP7IzFO3G5cFcH2/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ficon" >
           <div data-tip data-for="regfileTip" data-place="top" data-background-color="#bad9e8" data-text-color="#27364d">
             <FaRegFilePdf />
           </div>

@@ -37,7 +37,7 @@ function Contact() {
             <p className="cicon"><a href="https://www.facebook.com/ashley.holanda" target="_blank" rel="noopener noreferrer"><FaFacebook size={40} style={{ fill: '#27364d', marginRight: 20 }} />Facebook</a></p>
           </Col>
           <Col size="md-2">
-            <a href="https://drive.google.com/file/d/1VbnpVXiUPgEj7J-PVq9O7FMyodMDoAdH/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1UcIDieWJkrHuxgMpEzP7IzFO3G5cFcH2/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <div className="printer-container">
               <img className="printer" src={printerPic} alt="Resume Printer" data-tip data-for="printerTip" data-place="bottom" data-background-color="#27364d" />
             </div>
